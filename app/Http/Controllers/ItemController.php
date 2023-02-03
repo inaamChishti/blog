@@ -63,6 +63,7 @@ class ItemController extends Controller
                         $itemAllergy->item_id = $item->id;
                         $itemAllergy->allergy_id = $allergyCheck->id;
                         $itemAllergy->save();
+                        //
                     }
                 }
             }
